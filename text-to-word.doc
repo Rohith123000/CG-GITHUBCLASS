@@ -1,0 +1,17 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Text To Word</title></head><body><p>#include&lt;studio.h&gt;<br>#include&lt;conio.h&gt;<br>int main()<br>clrscr()<br>&nbsp;{<br>int age;</p>
+<p>printf("Enter the age ");</p>
+<p>scanf("%d",&amp;age);</p>
+<p>if (0&lt;age&lt;13)</p>
+<p>printf("This age belongs to child category");</p>
+<p>else if (12&lt;age&lt;20)</p>
+<p>printf("This age belongs to teenage category");</p>
+<p>else if (19&lt;age&lt;31)</p>
+<p>printf("This age belongs to youngster category");</p>
+<p>if (30&lt;age&lt;41)</p>
+<p>printf("This age belongs to adult category");</p>
+<p>else if (40&lt;age&lt;61)</p>
+<p>printf("This age belongs to middle age category");</p>
+<p>else if (60&lt;age&lt;129)</p>
+<p>printf("This age belongs to senior citizens category");</p>
+<p>else</p>
+<p>printf("Invalid age");<br>getch()<br>&nbsp;</p></body></html>
